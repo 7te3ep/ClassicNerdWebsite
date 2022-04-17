@@ -1,0 +1,128 @@
+/* general */
+
+*,
+html {
+  padding: 0rem;
+  margin: 0rem;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 18px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  background: #444;
+}
+
+#content {
+  padding: 2rem 2rem 0rem 2rem;
+}
+
+/* navbar */
+
+header {
+  box-sizing: border-box;
+  height: 8rem;
+  background-color: red;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  padding: 2rem 2rem 2rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: black 1rem 1rem 1rem;
+}
+
+header > h1 {
+  font-size: 2rem;
+  box-sizing: border-box;
+  padding: 1rem 0rem 0rem 0rem;
+  background-color: blue;
+}
+
+/* Section 1 : presentation rapide */
+
+section {
+  height: fit-content;
+  background-color: aqua;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  box-shadow: black 1rem 1rem 1rem;
+}
+section > .title {
+  height: 25%;
+  background-color: darkgreen;
+  padding: 1rem;
+}
+section > article {
+  background-color: forestgreen;
+  height: 100%;
+  padding: 1rem;
+}
+/* section 2 : Categorie avec les icones */
+
+section {
+  padding: 1rem;
+  background-color: brown;
+  height: fit-content;
+  border-radius: 1rem;
+}
+
+section > .title {
+  background-color: darkgreen;
+  padding: 1rem;
+}
+
+section > li {
+  list-style: none;
+  padding: 1rem;
+  text-align: center;
+  background-color: azure;
+}
+section > li > p {
+  display: block;
+  display: inline;
+  background-color: black;
+  font-size: 5rem;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+}
+
+section > li > #middlelement {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* Le footer */
+
+footer {
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: brown;
+  height: 100%;
+  box-shadow: black 1rem 1rem 1rem;
+}
+
+footer > .bottomSection {
+  height: 100%;
+  padding: 0rem;
+}
+
+footer > .bottomSection > #disclaimer {
+  box-sizing: border-box;
+  padding: 1rem;
+  display: block, inline;
+  background-color: green;
+  float: right;
+  width: 70%;
+  height: 100%;
+}
+
+footer > .bottomSection > article {
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: darkgreen;
+  display: block, inline;
+  float: left;
+  width: 30%;
+  height: 100%;
+}
