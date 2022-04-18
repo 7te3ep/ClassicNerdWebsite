@@ -113,7 +113,7 @@ footer > .bottomSection > #disclaimer {
   display: block, inline;
   background-color: green;
   float: right;
-  width: 70%;
+  width: 63%;
   height: 100%;
 }
 
@@ -123,6 +123,6 @@ footer > .bottomSection > article {
   background-color: darkgreen;
   display: block, inline;
   float: left;
-  width: 30%;
+  width: 37%;
   height: 100%;
 }
